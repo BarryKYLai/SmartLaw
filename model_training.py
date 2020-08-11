@@ -12,8 +12,6 @@ from keras.layers import Embedding, LSTM, Dropout, Dense
 from keras.callbacks import EarlyStopping
 import h5py
 
-"""-----------------------------所有程式的集合-----------------------------"""
-
 def wordvectors_convert(words_data): # 抓取向量並儲存為字典3.
     judgement_wordvectors = word2vec.load(
         "E:\\KuiYou\\others\\reference\\Word2Vec300.bin"
